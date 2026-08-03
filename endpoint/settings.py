@@ -36,14 +36,14 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "corsheaders"
     "rest_framework",
-
+    "corsheadersrest_framework"
     "accounts",
 ]
 
 
 MIDDLEWARE = [
-    "django.middleware.security.SecurityMiddleware",
     "corsheaders.middleware.CorsMiddleware",
+    "django.middleware.security.SecurityMiddleware",
     "django.middleware.common.CommonMiddleware",
 
     # WhiteNoise
